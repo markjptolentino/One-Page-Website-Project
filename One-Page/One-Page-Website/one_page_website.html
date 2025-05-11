@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark JP Tolentino - Cosmic Portfolio</title>
+    <link rel="stylesheet" href="CSS/one_page_website.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+    <canvas id="galaxy-bg"></canvas>
+    <div class="container">
+        <header>
+            <h1>Mark JP Tolentino</h1>
+            <p class="title">AOLCC Software & Web Development Student | Cybersecurity Graduate</p>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#profile">Profile</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#gallery">Image Gallery</a>
+                <a href="#video-gallery">Video Gallery</a>
+                <a href="#blog">Blog</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#timeline">Timeline</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="stats">
+                <span>Image Views: <span id="view-counter">0</span></span>
+                <span>Video Views: <span id="video-view-counter">0</span></span>
+                <span>Streaks: <span id="streak-counter">0</span></span>
+            </div>
+            <div class="achievements">
+                <span class="achievement" id="ach-5">5 Image Views</span>
+                <span class="achievement" id="ach-10">10 Image Views</span>
+                <span class="achievement" id="ach-video">Video Explorer</span>
+                <span class="achievement" id="ach-timeline">Timeline Unlocked</span>
+            </div>
+        </header>
+        <section id="home">
+            <h2>Welcome to My Cosmic Portfolio</h2>
+            <p>Dive into my universe of code, creativity, and cybersecurity expertise.</p>
+        </section>
+        <section id="profile">
+            <h2>About Me</h2>
+            <div class="profile-card">
+                <img src="images/img6.png" alt="Mark JP Tolentino" class="profile-img">
+                <p>I'm Mark JP Tolentino, a dedicated Software and Web Development student at AOLCC and a Cybersecurity graduate. My mission is to build secure, innovative web solutions with a cosmic flair.</p>
+                <p><a href="https://www.linkedin.com/in/mark-jp-tolentino-043522294/" target="_blank">Connect on LinkedIn</a></p>
+                <p class="easter-egg" title="Decrypt: 4D61726B (Hex for 'Mark')">Crack the code!</p>
+            </div>
+        </section>
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skill">
+                <span>HTML/CSS</span>
+                <div class="skill-bar"><div class="progress" data-progress="90"></div></div>
+            </div>
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="skill-bar"><div class="progress" data-progress="80"></div></div>
+            </div>
+            <div class="skill">
+                <span>Python</span>
+                <div class="skill-bar"><div class="progress" data-progress="75"></div></div>
+            </div>
+            <div class="skill">
+                <span>Cybersecurity</span>
+                <div class="skill-bar"><div class="progress" data-progress="85"></div></div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Secure Web App</h3>
+                <p>A full-stack web application with robust authentication.</p>
+            </div>
+            <div class="project">
+                <h3>Network Audit Tool</h3>
+                <p>Python-based tool for network vulnerability scanning.</p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>This cosmic portfolio built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Encryption Demo</h3>
+                <p>A JavaScript-based encryption showcase.</p>
+            </div>
+        </section>
+        <section id="gallery">
+            <h2>Image Gallery</h2>
+            <div class="gallery" id="image-gallery">
+                <img src="images/11.png" alt="Project 1" data-full="images/11.png" data-caption="Project 1 Showcase">
+                <img src="images/22.png" alt="Project 2" data-full="images/22.png" data-caption="Project 2 Showcase">
+                <img src="images/44.png" alt="Project 4" data-full="images/44.png" data-caption="Project 4 Showcase">
+            </div>
+        </section>
+        <section id="video-gallery">
+            <h2>Video Gallery</h2>
+            <div class="gallery" id="video-gallery">
+                <div class="video-thumb" data-video="https://www.youtube.com/embed/ur-IpBCsH8Y" data-caption="Cybersecurity Tutorial">
+                    <img src="https://img.youtube.com/vi/ur-IpBCsH8Y/mqdefault.jpg" alt="Video 1">
+                    <span class="play-button">▶</span>
+                </div>
+                <div class="video-thumb" data-video="https://www.youtube.com/embed/cOMkxIpb63k" data-caption="Web Development Demo">
+                    <img src="https://img.youtube.com/vi/cOMkxIpb63k/mqdefault.jpg" alt="Video 2">
+                    <span class="play-button">▶</span>
+                </div>
+            </div>
+            <a href="https://www.youtube.com/@GatusSecGG/streams" target="_blank" class="youtube-subscribe">Subscribe to My YouTube Channel</a>
+        </section>
+        <section id="blog">
+            <h2>Blog</h2>
+            <div class="blog-post">
+                <h3>Building Secure Web Apps</h3>
+                <p>Learn how to implement authentication and encryption in your projects.</p>
+            </div>
+            <div class="blog-post">
+                <h3>Cybersecurity Trends 2025</h3>
+                <p>Explore the latest in threat detection and prevention.</p>
+            </div>
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"Mark's skills in web development and cybersecurity are exceptional!"</p>
+                <span>- AOLCC Instructor</span>
+            </div>
+            <div class="testimonial">
+                <p>"His portfolio showcases creativity and technical prowess."</p>
+                <span>- Project Mentor</span>
+            </div>
+        </section>
+        <section id="timeline">
+            <h2>Education Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span>2023</span>
+                    <p>Graduated in Cybersecurity</p>
+                </div>
+                <div class="timeline-item">
+                    <span>2024-Present</span>
+                    <p>Studying Software & Web Development at AOLCC</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Email: tolentinomarkjp@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/markjptolentino" target="_blank">markjptolentino</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mark-jp-tolentino-043522294/" target="_blank">mark-jp-tolentino</a></p>
+            <p>YouTube: <a href="https://www.youtube.com/@GatusSecGG/streams" target="_blank">GatusSecGG</a></p>
+        </section>
+        <button id="scroll-top" style="display: none;">↑ Top</button>
+    </div>
+    <div id="image-lightbox" class="lightbox">
+        <span class="close">×</span>
+        <div class="lightbox-content">
+            <img class="lightbox-image" src="" alt="">
+            <div class="thumbnail-preview">
+                <img src="images/1.png" alt="Thumbnail 1">
+                <img src="images/2.png" alt="Thumbnail 2">
+                <img src="images/4.png" alt="Thumbnail 4">
+            </div>
+        </div>
+        <div class="caption"></div>
+        <a class="prev">❮</a>
+        <a class="next">❯</a>
+    </div>
+    <div id="video-lightbox" class="lightbox">
+        <span class="close">×</span>
+        <div class="lightbox-content">
+            <iframe class="lightbox-video" src="" frameborder="0" allowfullscreen></iframe>
+            <div class="caption"></div>
+        </div>
+        <a class="prev">❮</a>
+        <a class="next">❯</a>
+    </div>
+    <script src="JS/one_page_website.js"></script>
+</body>
+</html>
