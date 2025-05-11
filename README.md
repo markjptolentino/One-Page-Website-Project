@@ -26,11 +26,11 @@ bash
 Copy
 Edit
 One-Page-Website/
-├── CSS/one_page_website.css
-├── JS/one_page_website.js
-├── images/
-├── one_page_website.html
-└── README.md
+CSS/one_page_website.css
+JS/one_page_website.js
+images/
+one_page_website.html
+EADME.md
 ⚙️ Setup
 bash
 Copy
